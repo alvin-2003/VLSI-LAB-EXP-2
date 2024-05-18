@@ -1,41 +1,41 @@
-SIMULATION AND IMPLEMENTATION OF  COMBINATIONAL LOGIC CIRCUITS
+# SIMULATION AND IMPLEMENTATION OF  COMBINATIONAL LOGIC CIRCUITS
 
-AIM: 
- To simulate and synthesis ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR using Xilinx ISE.
+# AIM: 
+ To simulate and synthesis ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR using Vivado 2023.2.
 
-APPARATUS REQUIRED:
-Xilinx 14.7
-Spartan6 FPGA
+# APPARATUS REQUIRED:
+Vivado 2023.2
 
-**LOGIC DIAGRAM**
 
-ENCODER
+# LOGIC DIAGRAM
+
+# ENCODER
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/3cd1f95e-7531-4cad-9154-fdd397ac439e)
 
 
-DECODER
+# DECODER
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/45a5e6cf-bbe0-4fd5-ac84-e5ad4477483b)
 
 
-MULTIPLEXER
+# MULTIPLEXER
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/427f75b2-8e67-44b9-ac45-a66651787436)
 
 
-DEMULTIPLEXER
+# DEMULTIPLEXER
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/1c45a7fc-08ac-4f76-87f2-c084e7150557)
 
 
-MAGNITUDE COMPARATOR
+# MAGNITUDE COMPARATOR
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/b2fe7a05-6bf7-4dcb-8f5d-28abbf7ea8c2)
 
 
   
-PROCEDURE:
+# PROCEDURE:
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
 STEP:2  Select the device family, device, package and speed.       
 STEP:3  Select new source in the New Project and select Verilog Module as the Source type.                       
@@ -48,7 +48,7 @@ STEP:9  In the Design Object List Window, enter the pin location for each pin in
 STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here.
 STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 
-VERILOG CODE
+# VERILOG CODE
 
 # ENCODER:
 ```
@@ -129,7 +129,7 @@ endmodule
 
 
 
-OUTPUT:
+# OUTPUT:
 # ENCODER
 ![WhatsApp Image 2024-04-08 at 11 56 08_fc959f25](https://github.com/alvin-2003/VLSI-LAB-EXP-2/assets/163816866/b42a458c-1d86-4564-8776-1e9d1f686626)
 
