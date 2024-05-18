@@ -146,5 +146,5 @@ endmodule
 
 # RESULT
 
-Hence ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR is stimulated and synthesised using Xilinx ISE.
+Hence ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR is stimulated and synthesised using Vivado 2023.2.
 
